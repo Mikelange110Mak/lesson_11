@@ -1,0 +1,74 @@
+@import "null.css";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+}
+.main{
+   padding: 100px 20px;
+   font-family: 'Roboto', sans-serif;
+}
+.main-block_position{
+   max-width: 1020px;
+   min-height: 700px;
+   background-color: #5D62B5;
+   border-radius: 40px;
+   border-top-left-radius: 0;
+   padding: 100px 87px 0 87px;
+}
+.who-we__text{
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 24px;
+   letter-spacing: 2.5px;
+   color: #F5F5F5;
+   text-transform: uppercase;
+   position: relative;
+   padding-left: 33px;
+   margin-bottom: 33px;
+}
+.who-we__text::before{
+   content: '';
+   width: 20px;
+   height: 20px;
+   background: url('../img/Overline-Mark.svg') 0 0 no-repeat;
+   position: absolute;
+   top: -1px;
+   left: 0;
+}
+.main-textarea__title{
+   font-weight: 900;
+   font-size: 36px;
+   line-height: 42px;
+   color: #FFFFFF;
+   max-width: 583px;
+   margin-bottom: 36px;
+}
+.main-textarea__text{
+   font-size: 16px;
+   line-height: 24px;
+   letter-spacing: 0.15px;
+   color: #F5F5F5;
+   max-width: 846px;
+}
+.main-textarea_position::before{
+   content: '';
+   background: url('../img/Blob-2.png')0 0 no-repeat;
+   width: 665px;
+   height: 591px;
+   position: absolute;
+   top: 356px;
+   left: 0;
+}
+.main-block_position::before{
+   content: '';
+   background: url('../img/dog.png')0 0 no-repeat;
+   width: 894px;
+   height: 468px;
+   position: absolute;
+   top: 490px;
+   left: 74px;
+   z-index: 3;
+}
+/*thank you for checking my homework, SLAVA UKRAINI!*/
